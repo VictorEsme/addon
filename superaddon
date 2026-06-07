@@ -1,0 +1,81 @@
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.superkodi.victor" name="[COLOR lime]Super[/COLOR] Repo Victor" version="1.0.0" provider-name="Victor">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Super Repo Victor">
+        <!-- Blackghost -->
+        <dir>
+            <info compressed="false">https://bluegray25.github.io/addons.xml</info>
+            <checksum>https://bluegray25.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://bluegray25.github.io/</datadir>
+        </dir>
+        <!-- Resolver -->
+        <dir>
+            <info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
+            <checksum>https://michaz1988.github.io/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://michaz1988.github.io/repo/</datadir>
+        </dir>
+        <!-- Balandro -->
+        <dir>
+            <info compressed="false">https://repobal.github.io/base/addons.xml</info>
+            <checksum>https://repobal.github.io/base/addons.xml.md5</checksum>
+            <datadir zip="true">https://repobal.github.io/base/</datadir>
+        </dir>
+        <!-- Magellan -->
+        <dir>
+            <info compressed="false">https://tinyurl.com/magellanrepo/addons.xml</info>
+            <checksum>https://tinyurl.com/magellanrepo/addons.xml.md5</checksum>
+            <datadir zip="true">https://tinyurl.com/magellanrepo/</datadir>
+        </dir>
+        <!-- KPT - Espada Drago -->
+        <dir>
+            <info compressed="false">https://dregs1.github.io/addons.xml</info>
+            <checksum>https://dregs1.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://dregs1.github.io/</datadir>
+        </dir>
+        <!-- Skyline -->
+        <dir>
+            <info compressed="false">https://bugatsinho.github.io/repo/addons.xml</info>
+            <checksum>https://bugatsinho.github.io/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://bugatsinho.github.io/repo/</datadir>
+        </dir>
+        <!-- Elementum -->
+        <dir>
+            <info compressed="false">https://elementumorg.github.io/addons.xml</info>
+            <checksum>https://elementumorg.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://elementumorg.github.io/</datadir>
+        </dir>
+        <!-- f4mTester -->
+        <dir>
+            <info compressed="false">https://kodiloucosbr.github.io/addons.xml</info>
+            <checksum>https://kodiloucosbr.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodiloucosbr.github.io/</datadir>
+        </dir>
+        <!-- Horus -->
+        <dir>
+            <info compressed="false">https://gtkingbuild.github.io/addons.xml</info>
+            <checksum>https://gtkingbuild.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://gtkingbuild.github.io/</datadir>
+        </dir>
+        <!-- Alfa -->
+        <dir>
+            <info compressed="false">https://alfa-addon.com/alfa/addons.xml</info>
+            <checksum>https://alfa-addon.com/alfa/addons.xml.md5</checksum>
+            <datadir zip="true">https://alfa-addon.com/alfa/</datadir>
+        </dir>
+        <!-- HubLive -->
+        <dir>
+            <info compressed="false">https://audiosistem.github.io/Bee-Queen/addons.xml</info>
+            <checksum>https://audiosistem.github.io/Bee-Queen/addons.xml.md5</checksum>
+            <datadir zip="true">https://audiosistem.github.io/Bee-Queen/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es_GB">Super Repositorio Todo en Uno</summary>
+        <description lang="es_GB">Agrega Blackghost, Resolver, Balandro, Magellan, KPT, Skyline, Elementum, f4mTester, Horus, Alfa y HubLive en un solo lugar. Compatible con TV Box y Fire TV.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
